@@ -1,0 +1,41 @@
+{
+  "packageId": "com.aethelgard.gunsmokebounty",
+  "host": "rizasx.github.io",
+  "name": "Gunsmoke Bounty",
+  "launcherName": "Gunsmoke",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "themeColor": "#140d0a",
+  "themeColorDark": "#140d0a",
+  "navigationColor": "#140d0a",
+  "navigationColorDark": "#140d0a",
+  "navigationDividerColor": "#140d0a",
+  "navigationDividerColorDark": "#140d0a",
+  "backgroundColor": "#140d0a",
+  "enableNotifications": false,
+  "startUrl": "/Gunsmoke-Bounty/",
+  "iconUrl": "https://rizasx.github.io/Gunsmoke-Bounty/icons/icon-512.png",
+  "maskableIconUrl": "https://rizasx.github.io/Gunsmoke-Bounty/icons/maskable-512.png",
+  "webManifestUrl": "https://rizasx.github.io/Gunsmoke-Bounty/manifest.webmanifest",
+  "fullScopeUrl": "https://rizasx.github.io/Gunsmoke-Bounty/",
+  "appVersion": "1",
+  "appVersionName": "1.0.0",
+  "signingKey": {
+    "path": "C:\\\\Users\\\\rizwan\\\\android.keystore",
+    "alias": "android"
+  },
+  "splashScreenFadeOutDuration": 300,
+  "fallbackType": "customtabs",
+  "features": {
+    "playBilling": {
+      "enabled": true
+    }
+  },
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "minSdkVersion": 21,
+  "enableSiteSettingsShortcut": false,
+  "retainedBundles": []
+}
