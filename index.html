@@ -279,7 +279,7 @@ body{background:radial-gradient(ellipse at 50% 0%,#2a1a10,var(--bg) 70%)}
 #splash.shake{animation:splShake .25s}
 @keyframes splShake{25%{transform:translate(5px,-3px)}50%{transform:translate(-4px,3px)}75%{transform:translate(3px,2px)}}
 @media (prefers-reduced-motion:reduce){.spl-logo{animation:none}#splash.shake{animation:none}}
-.fmap{display:block;width:100%;max-width:520px;border-radius:8px;margin:6px 0 10px;border:2px solid #3a2a1a}.rlball{width:64px;height:64px;border-radius:50%;margin:8px auto;display:grid;place-items:center;font:700 26px sans-serif;border:3px solid #e6b34a}.rlball.red{background:#a82020}.rlball.black{background:#1a1a1a}.rlball.green{background:#1f7a3a}.dice{font-size:54px;text-align:center;letter-spacing:.2em}#p2pad{position:fixed;left:10px;top:120px;z-index:60;display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,44px);gap:4px}#p2pad[hidden]{display:none}.p2b{background:rgba(30,20,10,.7);color:#f0e2c0;border:2px solid #6a4a2a;border-radius:8px;font:700 16px sans-serif;touch-action:none}.p2b.u{grid-area:1/2}.p2b.l{grid-area:2/1}.p2b.r{grid-area:2/3}.p2b.d{grid-area:3/2}.p2b.f{grid-area:3/3;background:rgba(150,40,30,.8);font-size:12px}.storyov{position:fixed;inset:0;z-index:98;background:linear-gradient(180deg,rgba(8,4,2,.96),rgba(26,14,8,.94));display:flex;align-items:center;justify-content:center;padding:18px}.storybox{max-width:520px;width:100%;border-top:3px solid var(--brass);border-bottom:3px solid var(--brass);padding:22px 6px;display:flex;flex-direction:column;gap:12px}.stitle{font-family:'Special Elite',monospace;font-size:22px;color:var(--brass)}.swho{font-weight:700;letter-spacing:.04em;color:#ff9a82}.stext{font-size:19px;line-height:1.55;margin:0;min-height:140px;font-style:italic}.sdots{display:flex;gap:6px;justify-content:center}.sdots i{width:8px;height:8px;border-radius:50%;background:var(--brass);opacity:.25}.sdots i.on{opacity:1}.card.lockc{opacity:.55}
+#dfPanel{overflow-y:auto;justify-content:flex-start;-webkit-overflow-scrolling:touch;pointer-events:auto}#dfPanel>:first-child{margin-top:auto}#dfPanel>:last-child{margin-bottom:auto}#dfPanel>*{flex-shrink:0}@media (max-height:520px){#dfPanel{padding:8px;gap:6px}#dfPanel .poster{padding:8px 12px;gap:2px;width:min(420px,100%)}#dfPanel .poster h2{font-size:24px}#dfPanel .poster .nm{font-size:17px}#dfPanel .poster .bn{font-size:22px}#dfPanel .poster p{font-size:12px}#dfPanel .btn{padding:7px 16px;min-height:0;font-size:16px}#dfPanel .rowb{gap:6px}}.storyov{overflow-y:auto;-webkit-overflow-scrolling:touch;align-items:flex-start}.storyov>*{margin:auto}.screen.duel,.screen.over{overflow-y:auto;-webkit-overflow-scrolling:touch;justify-content:flex-start}.screen.duel>:first-child,.screen.over>:first-child{margin-top:auto}.screen.duel>:last-child,.screen.over>:last-child{margin-bottom:auto}.screen.duel>*,.screen.over>*{flex-shrink:0}@media (max-height:520px){.storyov{padding:8px}.storybox{padding:8px 6px;gap:6px}.storybox .stext{font-size:17px;line-height:1.35}.screen.duel,.screen.over{padding:8px;gap:8px}.screen.duel .btn,.screen.over .btn{padding:8px 16px;min-height:0}}#sPause{overflow-y:auto;-webkit-overflow-scrolling:touch}#sPause .panel{max-height:none}@media (max-height:520px){#sPause{align-items:flex-start}#sPause .panel{padding:10px 16px;margin:6px auto}#sPause .panel h2{font-size:22px;margin:0 0 6px}#sPause .panel .btn{padding:7px 14px;font-size:16px;margin:3px 0;min-height:0}}.fmap{display:block;width:100%;max-width:520px;border-radius:8px;margin:6px 0 10px;border:2px solid #3a2a1a}.rlball{width:64px;height:64px;border-radius:50%;margin:8px auto;display:grid;place-items:center;font:700 26px sans-serif;border:3px solid #e6b34a}.rlball.red{background:#a82020}.rlball.black{background:#1a1a1a}.rlball.green{background:#1f7a3a}.dice{font-size:54px;text-align:center;letter-spacing:.2em}#p2pad{position:fixed;left:10px;top:120px;z-index:60;display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(3,44px);gap:4px}#p2pad[hidden]{display:none}.p2b{background:rgba(30,20,10,.7);color:#f0e2c0;border:2px solid #6a4a2a;border-radius:8px;font:700 16px sans-serif;touch-action:none}.p2b.u{grid-area:1/2}.p2b.l{grid-area:2/1}.p2b.r{grid-area:2/3}.p2b.d{grid-area:3/2}.p2b.f{grid-area:3/3;background:rgba(150,40,30,.8);font-size:12px}.storyov{position:fixed;inset:0;z-index:98;background:linear-gradient(180deg,rgba(8,4,2,.96),rgba(26,14,8,.94));display:flex;align-items:center;justify-content:center;padding:18px}.storybox{max-width:520px;width:100%;border-top:3px solid var(--brass);border-bottom:3px solid var(--brass);padding:22px 6px;display:flex;flex-direction:column;gap:12px}.stitle{font-family:'Special Elite',monospace;font-size:22px;color:var(--brass)}.swho{font-weight:700;letter-spacing:.04em;color:#ff9a82}.stext{font-size:19px;line-height:1.55;margin:0;min-height:140px;font-style:italic}.sdots{display:flex;gap:6px;justify-content:center}.sdots i{width:8px;height:8px;border-radius:50%;background:var(--brass);opacity:.25}.sdots i.on{opacity:1}.card.lockc{opacity:.55}
 .schoice{display:flex;flex-direction:column;gap:8px;margin-top:4px}.schoice b{color:var(--brass);font-weight:700}.schoice .btn{text-align:left;white-space:normal}
 @media (max-height:480px){#tbtns{grid-template-columns:repeat(4,46px);gap:6px}#tbtns button{width:46px;height:46px;font-size:10px}}
 .card.wanted{border-color:#d9573f}.card.wanted h4 .price{color:#ff9a82}
@@ -341,8 +341,6 @@ body.cb{--red:#e69f00;--green:#56b4e9}
 body.big #hudL,body.big #hudC,body.big #hudR,body.big #hudB{zoom:1.3}
 .card.locked{opacity:.5}.card.done h4 .price{color:var(--green)}.cpbar{height:10px;border-radius:5px;background:#1d130c;border:1px solid var(--line);overflow:hidden}.cpbar i{display:block;height:100%;background:linear-gradient(90deg,var(--brass2),var(--brass))}
 </style>
-</head><body>
-
 <div id="app">
   <canvas id="cv"></canvas>
   <div id="vig"></div><div id="deVig"></div>
@@ -373,7 +371,6 @@ body.big #hudL,body.big #hudC,body.big #hudR,body.big #hudB{zoom:1.3}
   <section class="screen h2" id="sH2" hidden></section>
   <div id="toast"></div>
 </div>
-
 <script>
 'use strict';
 const $=s=>document.querySelector(s);
@@ -4458,7 +4455,7 @@ ACH.push(
  {id:'z29',n:'Pay Dirt',d:'Sell ore from the mine 3 times.',r:300,t:()=>FIN().n.mined>=3},
  {id:'z30',n:'Skip Tracer',d:'Finish 3 bounty contracts.',r:500,t:()=>FIN().n.contracts>=3}
 );
-/* ================= DLC packs: Zombies vs Cowboy, Aliens vs Cowboy; co-op deputy, pets, animated cutscenes ================= */
+/* ================= DLC packs: Zombies vs Cowboys, Aliens vs Cowboys; co-op deputy, pets, animated cutscenes ================= */
 ETYPES.zombie={name:'Walker',hp:62,spd:64,r:15,pref:0,fire:[1,1],dmg:10,atk:.9,melee:1,bspd:0,wind:0,spread:0,bounty:[38,66],loot:[6,22],gun:{len:0,col:'#000'}};
 ETYPES.runner={name:'Runner',hp:30,spd:155,r:13,pref:0,fire:[1,1],dmg:7,atk:.6,melee:1,bspd:0,wind:0,spread:0,bounty:[40,70],loot:[6,20],gun:{len:0,col:'#000'}};
 ETYPES.bloat={name:'Bloater',hp:150,spd:42,r:21,pref:0,fire:[1,1],dmg:14,atk:1.1,melee:1,bspd:0,wind:0,spread:0,bounty:[90,140],loot:[15,40],gun:{len:0,col:'#000'}};
@@ -4504,7 +4501,7 @@ WEAPONS.raygun={name:'Zeta Ray Gun',cost:0,legend:true,dmg:44,rate:.2,mag:12,rel
 WEAPONS.holy=Object.assign({},WEAPONS.shotgun||{},{name:'Preacher\'s Blessing',cost:0,legend:true,dmg:14,rate:.7,mag:4,reload:1.5,spread:.2,speed:820,pellets:10,range:360,len:21,col:'#e8d9a0',snd:'shotgun',recoil:6,desc:'A blessed double-barrel. Ten pellets that tear through the undead.'});
 /* ---------- pack missions ---------- */
 const DLCP={
- zombie:{id:'zombie',n:'Zombies vs Cowboy',tag:'The Hungry Dead',d:'The dead are walking out of Boot Hill. Fight walkers, runners, bloaters and spitters, hunt down three vials of antibody and brew a cure that ends the virus for good.',gun:'holy',missions:[
+ zombie:{id:'zombie',n:'Zombies vs Cowboys',tag:'The Hungry Dead',d:'The dead are walking out of Boot Hill. Fight walkers, runners, bloaters and spitters, hunt down three vials of antibody and brew a cure that ends the virus for good.',gun:'holy',missions:[
   {id:'zp1',n:'Bad Water',scene:'grave',lvl:3,type:'clear',pool:[['zombie',5],['runner',1]],theme:'zombie',reward:300,brief:[['Old Silas','Folks are saying the well at Boot Hill turned black. Then the dead came up out of the churchyard.'],['Old Silas','Head shots drop them fastest. Do not let them close in. Walkers hit hard in a crowd.']],win:[['Narrator','The first wave goes down. The silence afterwards is worse than the noise.']]},
   {id:'zp2',n:'Undertaker\'s Secret',scene:'grave',lvl:4,type:'clear',pool:[['zombie',4],['runner',3],['spitter',2]],extra:1.2,theme:'zombie',reward:450,brief:[['Whispering Pete','The undertaker has been burying men that were not dead. He kept a ledger.'],['Whispering Pete','Spitters stay back and lob acid. Kill those first.']],win:[['Narrator','The ledger lists forty names. Every one of them is out there now.']]},
   {id:'zp3',n:'Church Bells',scene:'grave',lvl:6,type:'clear',pool:[['zombie',4],['runner',3],['spitter',2],['bloat',2]],extra:1.3,theme:'zombie',reward:600,brief:[['Narrator','The church bell is ringing by itself. The dead follow the sound.'],['Old Silas','Bloaters burst when they die. Shoot them from far away.']],win:[['Old Silas','Cut the bell rope and they stop gathering. We bought ourselves a night.']]},
@@ -4512,7 +4509,7 @@ const DLCP={
   {id:'zp6',n:'The Antidote Trail',scene:'grave',lvl:9,type:'clear',pool:[['zombie',4],['runner',4],['spitter',2],['bloat',2]],extra:1.4,theme:'zombie',carriers:3,reward:1000,brief:[['Doc Hartley','I found Patient Zero\'s old lab notes. A cure is possible, but I need three vials of antibody from the infected doctors who worked there.'],['Old Silas','They glow green. Kill them and the vials drop. Do not let the horde get to you first.']],win:[['Doc Hartley','Three vials. That is almost enough. The last ingredient is in Patient Zero\'s own blood.'],['Old Silas','Then we know where we are going.']]},
   {id:'zp5',n:'The Cure',scene:'grave',lvl:10,type:'boss',pool:[['zombie',4],['runner',3],['bloat',1]],theme:'zombie',bossName:'Patient Zero',reward:2500,brief:[['Doc Hartley','Three vials in my bag and one more ingredient: blood from Patient Zero, the first of the infected. The virus began in him.'],['Old Silas','He is waiting at the cemetery gate. Get close enough to take what we need and put him down.'],['Narrator','The whole town is behind you, boarded up in the church, waiting for the bells to stop.']],win:[['Doc Hartley','Hold still. I have the sample. Give me one minute at the bench.'],['Narrator','The vials hiss, then glow gold. Doc Hartley fills a syringe, then a hundred more, then the church well.'],['Narrator','By dawn the sick are sitting up, confused and hungry. The walkers on Boot Hill crumble to dust in the sunrise.'],['Old Silas','No more sickness in Dust Creek. You saved the whole town, partner.'],['Old Silas','Take the Preacher\'s Blessing. Use it only on things that deserve it.']]}
  ]},
- alien:{id:'alien',n:'Aliens vs Cowboy',tag:'Visitors',d:'Something fell out of the sky onto the mesa. Fight grunts, drones, brutes and snipers across ten missions, rebuild the crashed ship, fly to their homeworld and kill the Hive Emperor.',gun:'raygun',missions:[
+ alien:{id:'alien',n:'Aliens vs Cowboys',tag:'Visitors',d:'Something fell out of the sky onto the mesa. Fight grunts, drones, brutes and snipers across ten missions, rebuild the crashed ship, fly to their homeworld and kill the Hive Emperor.',gun:'raygun',missions:[
   {id:'ap1',n:'Falling Star',scene:'crater',lvl:6,type:'clear',pool:[['agrunt',5],['drone',2]],theme:'alien',reward:400,brief:[['Old Silas','A star fell on the mesa last night and burned a hole in the ground the size of a barn.'],['Old Silas','Something climbed out of it. They shoot green light.']],win:[['Narrator','The grunts fall. Their weapons melt in the sunlight.']]},
   {id:'ap2',n:'Cattle Mutilations',scene:'crater',lvl:7,type:'clear',pool:[['agrunt',4],['drone',4],['asniper',1]],extra:1.2,theme:'alien',reward:550,brief:[['Whispering Pete','Ranchers are losing cattle. The animals are found hollowed out and glowing.'],['Old Silas','Snipers hide behind rocks. Move, do not stand still.']],win:[['Narrator','You find the cattle pens. Everything inside is humming.']]},
   {id:'ap3',n:'The Hive',scene:'crater',lvl:8,type:'clear',pool:[['agrunt',4],['drone',4],['asniper',2],['abrute',1]],extra:1.3,theme:'alien',reward:700,brief:[['Narrator','Under the crash site is a tunnel lined with something that breathes.'],['Old Silas','Brutes will charge you. Keep your distance and shoot until they drop.']],win:[['Narrator','The tunnel groans. Somewhere deep underground, something notices you.']]},
@@ -4765,8 +4762,8 @@ function startScv(){
  };
 })();
 ACH.push(
- {id:'z31',n:'Grave Digger',d:'Finish the Zombies vs Cowboy campaign.',r:1000,t:()=>{const f=dp();return !!f.dlcp.zp5;}},
- {id:'z32',n:'First Contact',d:'Finish the Aliens vs Cowboy campaign.',r:1000,t:()=>{const f=dp();return !!f.dlcp.ap5;}},
+ {id:'z31',n:'Grave Digger',d:'Finish the Zombies vs Cowboys campaign.',r:1000,t:()=>{const f=dp();return !!f.dlcp.zp5;}},
+ {id:'z32',n:'First Contact',d:'Finish the Aliens vs Cowboys campaign.',r:1000,t:()=>{const f=dp();return !!f.dlcp.ap5;}},
  {id:'z33',n:'Best Friend',d:'Buy an animal companion.',r:200,t:()=>!!dp().pet}
 );
 /* ================= more skills ================= */
@@ -4801,7 +4798,7 @@ Object.assign(SK,{
   return s;
  };
 })();
-/* ================= Aliens vs Cowboy finale: repair the ship, fly to the Hive, kill the Emperor ================= */
+/* ================= Aliens vs Cowboys finale: repair the ship, fly to the Hive, kill the Emperor ================= */
 (function(){
  const aw=Object.assign({},SCENEBY.canyon,{id:'alienworld',name:'The Hive',sub:'Alien homeworld',ground:'#4a3a6a',speck:['#3f3160','#56447a','#352853'],road:null,rock:'#2f2248',woods:['#2a1d3f','#3a2852','#221733','#463060'],flora:'cactus',types:['rock','rock','rock','rock','cactus','post'],lamps:0,grass:'#3a4a6a',mesa:'#3a2a5a',mesa2:'#2a1c44',town:'#201433',dust:'#a888d0',chip:'#9affd0'});
  SCENES.push(aw);SCENEBY.alienworld=aw;
@@ -4976,7 +4973,7 @@ function warpAnim(cb){
  const _dh=dlcHtml;
  dlcHtml=function(){
   let h=_dh();
-  const mk='<h3 class="sh">Aliens vs Cowboy</h3>',i=h.indexOf(mk);
+  const mk='<h3 class="sh">Aliens vs Cowboys</h3>',i=h.indexOf(mk);
   if(i>=0&&FIN().dlc&&FIN().dlc.alien){const j=h.indexOf('<div class="grid">',i);if(j>0)h=h.slice(0,j)+shipHtml()+h.slice(j);}
   if(!shipReady()){const L=DLCP.alien.missions.length;h=h.replace(new RegExp('(<h4><span>'+L+'\\. The Hive Emperor</span>[\\s\\S]*?<p>)Boss mission\\. [^<]*'),'$1Boss mission. Fit all four ship parts to unlock the journey.').replace(new RegExp('('+L+'\\. The Hive Emperor[\\s\\S]*?data-act="dlc_go" data-p="alien" data-i="'+(L-1)+'" )[^>]*>'),'$1disabled>');}
   return h;
@@ -5032,7 +5029,7 @@ function warpAnim(cb){
   _de(c,e);
   if(e.carrier&&e.hp>0){const p=.5+.5*Math.sin(G.t*6);c.save();c.strokeStyle='rgba(154,255,208,'+(.5+.4*p)+')';c.lineWidth=3;c.beginPath();c.arc(e.x,e.y,e.r+8+p*3,0,7);c.stroke();c.fillStyle='#9affd0';c.font='700 11px sans-serif';c.textAlign='center';c.fillText('VIAL',e.x,e.y-e.r-26);c.restore();}
  };
- ACH.push({id:'z36',n:'Cure Found',d:'Finish the Zombies vs Cowboy campaign and save the town.',r:1500,t:()=>!!(FIN().dlcp&&FIN().dlcp.zp5)});
+ ACH.push({id:'z36',n:'Cure Found',d:'Finish the Zombies vs Cowboys campaign and save the town.',r:1500,t:()=>!!(FIN().dlcp&&FIN().dlcp.zp5)});
 })();
 (function(){
  const _sh=skillsHtml;
@@ -6199,9 +6196,9 @@ function renderOver(){
  $('#sOver').innerHTML=`<div class="panel"><h2>Gunned Down</h2><p>You fell on wave ${o.wave} after ${o.kills} kill${o.kills===1?'':'s'}.</p><p>Bounties ${fmt(o.bounty)} · Pockets ${fmt(o.pockets)}</p><p style="color:var(--red)">The undertaker took ${fmt(o.loss)} from your pockets.</p><button class="btn" data-act="townback">Back to town</button></div>`;
 }
 function renderPause(){
- $('#sPause').innerHTML=`<div class="panel"><h2>Paused</h2><button class="btn" data-act="resume">Resume</button><button class="btn ghost" data-act="music">Music: ${settings.music?'on':'off'}</button><button class="btn ghost" data-act="sfx">Sound effects: ${settings.sfx?'on':'off'}</button><button class="btn ghost" data-act="tmode">Time: ${TMLABEL[TM.mode]} · ${fmtClock(TM.h)}</button><button class="btn ghost" data-act="scene">Next scenery: ${sceneLabel()}</button><button class="btn ghost" data-act="track">Soundtrack: ${trackLabel()}</button><button class="btn ghost" data-act="abandon">Abandon wave</button></div>`;
+ $('#sPause').innerHTML=`<div class="panel"><h2>Paused</h2><button class="btn" data-act="resume">Resume</button><button class="btn ghost" data-act="music">Music: ${settings.music?'on':'off'}</button><button class="btn ghost" data-act="sfx">Sound effects: ${settings.sfx?'on':'off'}</button><button class="btn ghost" data-act="tmode">Time: ${TMLABEL[TM.mode]} · ${fmtClock(TM.h)}</button><button class="btn ghost" data-act="scene">Next scenery: ${sceneLabel()}</button><button class="btn ghost" data-act="track">Soundtrack: ${trackLabel()}</button><button class="btn ghost" data-act="abandon">Abandon wave</button><button class="btn ghost" data-act="exitmenu">${G.exitArm?'Tap again to leave the game':'Exit to main menu'}</button></div>`;
 }
-function pauseGame(){if(G.mode!=='play')return;writeSave();setMode('pause');renderPause();}
+function pauseGame(){if(G.mode!=='play')return;G.exitArm=0;writeSave();setMode('pause');renderPause();}
 function resumeGame(){if(G.mode!=='pause')return;setMode('play');}
 
 /* ---------- boss duel ---------- */
@@ -6266,6 +6263,7 @@ function act(a,d){
   case'townback':G.summary=null;setMode('town');renderTown();break;
   case'pause':pauseGame();break;
   case'resume':resumeGame();break;
+  case'exitmenu':if(!G.exitArm){G.exitArm=1;renderPause();setTimeout(()=>{G.exitArm=0;if(G.mode==='pause')renderPause();},3500);break;}G.exitArm=0;if(typeof missionAbort==='function')missionAbort();save.kills+=G.stats?G.stats.kills:0;writeSave();G.summary=null;G.titleStage='modes';renderTitle();setMode('title');break;
   case'abandon':if(typeof missionAbort==='function')missionAbort();save.kills+=G.stats?G.stats.kills:0;writeSave();G.summary=null;setMode('town');renderTown();break;
   case'draw':duelDraw();break;
   default:extraAct(a,d);
@@ -6371,6 +6369,4 @@ function init(){
  requestAnimationFrame(frame);
 }
 init();
-
 </script>
-</body></html>
